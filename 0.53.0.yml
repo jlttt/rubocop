@@ -32,6 +32,10 @@ Gemspec/OrderedDependencies:
 
 
 
+# TODO : Enable on next release
+# Layout/AlignHash:
+#   EnforcedHashRocketStyle: table
+#   EnforcedColonStyle: table
 
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
