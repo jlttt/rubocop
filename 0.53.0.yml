@@ -168,6 +168,14 @@ Rails/SkipsModelValidations:
     - /**/spec/**/*
     - /**/features/**/*
 
+# Add staging
+Rails/UnknownEnv:
+  Environments:
+    - development
+    - test
+    - production
+    - staging
+
 
 
 
