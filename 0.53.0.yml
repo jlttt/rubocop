@@ -108,6 +108,8 @@ Metrics/LineLength:
     - ^Given
     - ^When
     - ^Then
+    - http://
+    - https://
 
   # TODO : Remove
   Exclude:
