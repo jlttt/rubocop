@@ -189,6 +189,9 @@ Security/Eval:
 
 
 
+Style/AccessModifierDeclarations:
+  Enabled: false
+
 Style/AsciiComments:
   Enabled: false
 
