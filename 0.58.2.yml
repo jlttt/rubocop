@@ -32,7 +32,7 @@ Gemspec/OrderedDependencies:
 
 
 
-# TODO : Enable on next release
+# TODO : Enable
 # Layout/AlignHash:
 #   EnforcedHashRocketStyle: table
 #   EnforcedColonStyle: table
@@ -42,6 +42,10 @@ Layout/AlignParameters:
 
 Layout/ClassStructure:
   Enabled: true # Disabled by default
+
+# TODO : Enable
+# Layout/EmptyLineAfterGuardClause:
+#   Enabled: true # Disabled by default
 
 Layout/EmptyLineBetweenDefs:
   Enabled: true
