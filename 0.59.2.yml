@@ -43,9 +43,8 @@ Layout/AlignParameters:
 Layout/ClassStructure:
   Enabled: true # Disabled by default
 
-# TODO : Enable
-# Layout/EmptyLineAfterGuardClause:
-#   Enabled: true # Disabled by default
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
 
 Layout/EmptyLineBetweenDefs:
   Enabled: true
@@ -168,6 +167,7 @@ Rails/OutputSafety:
 
 Rails/SaveBang:
   Enabled: true  # Disabled by default
+  AllowImplicitReturn: false
 
 Rails/SkipsModelValidations:
   Exclude:
