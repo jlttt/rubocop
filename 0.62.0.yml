@@ -31,8 +31,9 @@ Gemspec/OrderedDependencies:
 
 
 
-
+# It's ugly with nested hashes
 Layout/AlignHash:
+  Enabled: false
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
 
