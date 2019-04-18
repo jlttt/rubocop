@@ -114,8 +114,9 @@ Metrics/LineLength:
     - http://
     - https://
 
-  # TODO : Remove
+  # TODO : Remove PDFs
   Exclude:
+    - /**/app/filters/**/*
     - /**/app/pdfs/**/*
 
 Metrics/MethodLength:
