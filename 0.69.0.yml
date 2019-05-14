@@ -30,6 +30,13 @@ Gemspec/OrderedDependencies:
   Enabled: false
 
 
+# Allow :
+# create(:user,
+#   :name  => "xxx",
+#   :email => "xxx",
+# )
+AlignArguments:
+  Enabled: false
 
 # It's ugly with nested hashes
 Layout/AlignHash:
@@ -57,7 +64,7 @@ Layout/FirstArrayElementLineBreak:
 Layout/FirstHashElementLineBreak:
   Enabled: true  # Disabled by default
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
 Layout/MultilineMethodCallBraceLayout:
@@ -144,13 +151,6 @@ Naming/PredicateName:
   Enabled: false
 
 UncommunicativeMethodParamName:
-  Enabled: false
-
-
-
-
-
-Performance/Casecmp:
   Enabled: false
 
 
