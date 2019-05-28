@@ -166,6 +166,9 @@ Rails/InverseOf:
 Rails/OutputSafety:
   Enabled: false
 
+Rails/RequestReferer:
+  Enabled: false
+
 Rails/SaveBang:
   Enabled: true  # Disabled by default
   AllowImplicitReturn: false
