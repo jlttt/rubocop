@@ -158,8 +158,18 @@ Naming/MemoizedInstanceVariableName:
 Naming/PredicateName:
   Enabled: false
 
-UncommunicativeMethodParamName:
+Naming/UncommunicativeMethodParamName:
   Enabled: false
+
+
+
+
+
+
+Performance/Casecmp:
+  Enabled: false # Difficult to understand
+
+
 
 
 
