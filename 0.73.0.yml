@@ -178,6 +178,9 @@ Performance/Casecmp:
 Rails:
   Enabled: true  # Disabled by default
 
+Rails/HelperInstanceVariable:
+  Enabled: false
+
 Rails/InverseOf:
   Enabled: false
 
