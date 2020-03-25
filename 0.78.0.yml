@@ -13,7 +13,7 @@ AllCops:
     - /**/script/**/*
     - /**/vendor/**/*
     - /**/db/migrate/**/*
-    - /**/db/schema.rb
+    - /**/db/**/schema.rb
     - /**/lib/tasks/**/*
     - /**/config/**/*
     - /**/Gemfile
